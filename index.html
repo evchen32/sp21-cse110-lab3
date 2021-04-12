@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Journal</title>
+    <link rel="icon" href="375269-201.png"></link>
+</head>
+<body>
+    <header>
+        <h1>The Weekend</h1>
+        <h3>By Evan Chen<h3>
+        <div>Sections</div>
+        <span></span>
+        <nav>
+            <ul>
+                <li><a href="#friday">4/9</a></li>
+                <li><a href="#saturday">4/10</a></li>
+                <li><a href="#sunday">4/11</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="friday">Friday</h2>
+        <section>
+            <h3>4/9/21</h3>
+            <p>
+                I worked on some assignments that were due that day:
+                <ol>
+                    <li>COGS 108 Weekly Quiz</li>
+                    <li>Greet Professor Powell</li>
+                </ol>
+                Instead of posting an actual song for my audio requirement,
+                check out a simple <b>beat</b> that I produced a long time ago.
+                The reason for this is we know that it is best to
+                <strong>respect the intellectual property of other artists</strong>. I am sorry if it sounds bad.
+            </p>
+            <audio controls
+                    src="/untitled.mp3">
+                Your browser does not support the  <code>audio</code> element.
+            </audio>
+        </section>
+        <h2 id="saturday">Saturday</h2>
+        <section>
+            <h3>4/10/21</h3>
+            <p>
+                In preparation for my Lab 2 in CSE 110, I looked up the definition of HTML.
+                <i>HTML</i>, according to Wikipedia, "is the standard markup language for documents 
+                designed to be displayed in a web browser." 
+                Also, caught up on ECE45 and worked on the assigned homework.
+            </p>
+            
+            <p>In honor of Fetty Wap's song "Trap Queen", <br>
+            here is a variation of the "Living in 1984" meme:<br>
+            </p>
+            <img class="meme"
+                 src="IMG_1337.jpg"
+                 width=500
+            >
+            <details>
+                <summary>Why this meme?</summary>
+                The original meme alludes to censorship where the man in the picture flips the 
+                calendar to 1984 when the woman says that something is being censored.
+                In this variation however, it alludes to the actual date referenced in the song "Trap Queen".
+                The fact that the man looks so depressed in this variation despite the fact that this has nothing
+                to do with censorship at all is hilarious.
+            </details>
+
+        </section>
+        <h2 id="sunday">Sunday</h2>
+        <section>
+            <h3>4/11/21</h3>
+            <p>
+                Currently working on this webpage. How is it already <em>Sunday</em>!?
+            </p>
+        </section>
+        <hr>
+        <p>Anyways, here is a video from La Jolla Cove that I was able to take before the pandemic.</p>
+        <video controls width="250">
+            <source src="IMG_0710.mov">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+            
+    </main>
+    <footer>
+        <form>
+            <fieldset>
+                <legend>New Journal Entry Form:</legend>
+                <p>Select day of the Week</p>
+                <div>
+                    <input type="radio" id="one" name="week" value="Monday" checked>
+                    <label for="Monday">Monday</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="two" name="week" value="Tuesday" checked>
+                    <label for="Tuesday">Tuesday</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="three" name="week" value="Wednesday" checked>
+                    <label for="Wednesday">Wednesday</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="four" name="week" value="Thursday" checked>
+                    <label for="Thursday">Thursday</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="five" name="week" value="Friday" checked>
+                    <label for="Friday">Friday</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="six" name="week" value="Saturday" checked>
+                    <label for="Saturday">Saturday</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="seven" name="week" value="Sunday" checked>
+                    <label for="Sunday">Sunday</label>
+                </div>
+
+                <label for="today">Today's date</label>
+
+                <input type="date" id="today" name="today-date"
+                       value="2021-04-11">
+                <label for="description">Description</label>
+
+                <input type="text" id="description" name="description">
+
+                <p>Check any that applies to gauge well-being:</p>
+                <div>
+                    <input type="checkbox" id="health" name="health" checked>
+                    <label for="health">I am sick</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="good" name="good" checked>
+                    <label for="good">I am feeling great</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="tired" name="tired" checked>
+                    <label for="tired">I am tired</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="nowrong" name="nowrong" checked>
+                    <label for="nowrong">Nothing went wrong today</label>
+                </div>
+
+                <p>Write down your thoughts here...</p>
+                <div>
+                <label for="paragraph"></label>
+                <textarea id="paragraph" name="paragraph" rows="5" cols="33">
+
+                </textarea>
+                </div>
+                <p>
+                <label for="location">Where are you working from?</label>
+                <input list="location" id="myLocation" name="myLocation" />
+                <datalist id="location">
+                    <option value="Home"> 
+                    <option value="School">
+                    <option value="Elsewhere">
+                </datalist>
+            </p>
+
+            <p>
+                <label for="device">On what device are you composing your thoughts:</label>
+
+                    <select name="device" id="device-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="pc">pc</option>
+                        <option value="mobile">mobile</option>
+                    </select>
+                </p>
+                    <label for="rating">Choose a rating out of 5:</label>
+
+                    <select id="rating">
+                        <option value="">--Please choose an option--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                <p>
+                <button class="Enter" type="button">
+                    Add to Journal
+                </button>
+            </p>
+            </fieldset>
+
+        </form>
+    </footer>
+    
+</body>
+</html>
