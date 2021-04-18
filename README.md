@@ -1,1 +1,1 @@
-https://evchen32.github.io/Lab2/
+https://evchen32.github.io/sp21-cse110-lab3/
