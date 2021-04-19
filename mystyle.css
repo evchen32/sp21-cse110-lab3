@@ -104,3 +104,15 @@ p.test {
     max-width: 1000px;
     min-width:500px;
 }
+
+img, video {
+    position:relative
+}
+
+header {
+    position: static
+}
+
+a[href^="#"] {
+    color: yellowgreen;
+}
