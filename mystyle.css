@@ -83,3 +83,11 @@ img {
 video {
     margin: auto;
 }
+
+/*Style text*/
+h3 {
+    color: brown;
+    text-decoration: underline;
+    text-align: left;
+
+}
