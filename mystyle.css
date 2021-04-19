@@ -20,3 +20,31 @@ h2 {
     background-color:rgb(68, 68, 68);
 }
 
+/*relative units*/
+header {
+    width: 20vw
+}
+
+img {
+    height: 25vh
+}
+
+video {
+    height: 20vmax
+}
+
+
+
+/*absolute units*/
+nav {
+    width: 500px
+}
+
+p {
+    width: 500pt
+}
+
+body {
+    width: 500pc
+}
+
