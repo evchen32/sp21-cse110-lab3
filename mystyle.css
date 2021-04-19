@@ -91,3 +91,11 @@ h3 {
     text-align: left;
 
 }
+
+p.test {
+    display: inline;
+}
+
+#friday {
+    display:inline-block;
+}
