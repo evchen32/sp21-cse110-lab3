@@ -3,7 +3,7 @@ name: Custom issue template
 about: Basic template for issues
 title: ''
 labels: ''
-assignees: ''
+assignees: evchen32
 
 ---
 
