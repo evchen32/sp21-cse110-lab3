@@ -116,3 +116,11 @@ header {
 a[href^="#"] {
     color: yellowgreen;
 }
+
+button:hover {
+    color:royalblue;
+}
+
+button:active {
+    color:purple;
+}
