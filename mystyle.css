@@ -1,0 +1,17 @@
+/* Add some colors */
+
+header {
+    color:rgb(0, 0, 255);
+}
+
+nav {
+    color:#DC143C
+}
+
+h2 {
+    color: hsl(212, 42%, 59%)
+}
+
+h3 {
+    color:DarkSlateGrey
+}
